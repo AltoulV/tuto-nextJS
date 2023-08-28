@@ -32,12 +32,12 @@ export default function Accueil() {
         <Benefits
           background="alternate"
           title="Les Horaires"
-          subtitle="Les horaires se che"
+          subtitle=""
           benefits={[
-            {illustration:'', title:'CP CE1 CE2', text:'Mercredi 10h45-12h et/ou Jeudi 17h10-18h'},
-            {illustration:'', title:'CM1 CM2 6èmeDébutant', text:'Mercredi 10h45-12h et/ou Jeudi 17h45-19h'},
-            {illustration:'', title:'6èmeConfirmé 5ème 4ème 3ème', text:'Jeudi 18h45-20h'},
-            {illustration:'', title:'Cours Ados Adults', text:'Jeudi 19h30-20h30'},
+            {illustration:'', title:'Cp Ce1 C2', text:'Mercredi 10h45-12h et/ou Jeudi 17h10-18h'},
+            {illustration:'', title:'Cm1 Cm2 6ème Débutant', text:'Mercredi 10h45-12h et/ou Jeudi 17h45-19h'},
+            {illustration:'', title:'6ème Confirmé 5ème 4ème 3ème', text:'Jeudi 18h45-20h'},
+            {illustration:'', title:'Cours Ados Adults', text:'Jeudi 19h15-20h30'},
           ]}
         />
 

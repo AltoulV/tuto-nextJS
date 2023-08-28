@@ -2,6 +2,8 @@ import styles from './Break.module.css';
 import Section from '../components/Section';
 import cx from '../utils/cx';
 import Button from '../components/Button';
+import Image from 'next/image';
+import profilePic from '../public/images/TIMELINE.png';
 
 export default function Break(p: {
   id?: string,
@@ -20,13 +22,13 @@ export default function Break(p: {
 
   return (
     <Section id={p.id} className={className} size="narrow" background="accent">
+      <h1 className={styles.title}>{p.title}</h1>
       <div className={styles.content}>
         <div className={styles.illustration}/>
-        <div className={styles.header}>
-          <h1 className={styles.title}>{p.title}</h1>
-          <p className={styles.subtitle}>{p.subtitle}</p>
-        </div>
-        {p.action && <Button href={p.actionHref} onClick={p.onActionClick} size="large" location="accent">{p.action}</Button>}
+        <Image
+        src={profilePic}
+        alt="Picture of the author"
+       />
       </div>
     </Section>
   );
