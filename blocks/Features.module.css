@@ -1,6 +1,5 @@
 .container {
-  max-width: var(--page-max-width);
-  margin: 0 auto;
+
 }
 
 .header {
@@ -27,31 +26,31 @@
   color: var(--text-shade);
 }
 
-.benefits {
+.features {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-bottom: -48px; /* Hack for bottom margin */
 }
 
-.benefit {
+.feature {
   max-width: var(--list-item-max-width);
   margin: 0 auto;
-}
-.benefit:not(:last-child) {
   margin-bottom: 48px;
 }
 
-.benefit-illustration {
-  height: 200px;
+.feature-illustration {
+  width: 92px;
+  height: 92px;
   background: #eee;
-  border-radius: 8px;
+  border-radius: 28px;
 }
 
-.benefit-content {
-  margin-top: 24px;
+.feature-content {
+  margin-top: 16px;
 }
 
-.benefit-title {
+.feature-title {
   font-size: var(--h3-font-size);
   font-weight: var(--h3-font-weight);
   line-height: var(--h3-line-height);
@@ -59,21 +58,21 @@
   margin-bottom: 8px;
 }
 
-.benefit-text {
+.feature-text {
   color: var(--text-shade);
 }
 
 @media screen and (min-width: 800px) {
-  .benefits {
+  .features {
     display: flex;
     align-items: stretch;
     justify-content: stretch;
+    flex-flow: row wrap;
+    margin-right: -64px; /* Hack for right margin */
   }
-  .benefit {
+  .feature {
     flex: 1 1 0;
     margin-right: 64px;
-}
-  .benefit:last-child {
-    margin-right: 0;
+    min-width: var(--list-item-max-width);
   }
 }
