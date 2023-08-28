@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
-
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Link from 'next/link';
@@ -20,16 +19,16 @@ export default function BasicMenu() {
 
   return (
       <div>
-        <Grid container spacing={2} columns={18}>
-          <Grid md={1} mdOffset={7}>
+        <Grid container spacing={2} columns={18} justifyContent="center" alignItems="flex-end" paddingTop="40px">
+          <Grid container md={1} justifyContent="center">
             <Button id="basic-button">
               <Link href="/">Accueil</Link>
             </Button>
           </Grid>
-          <Grid md={2}>
+          <Grid container md={2} justifyContent="center">
             <Image priority src={profilePic} height={200} width={200} alt=""/>
           </Grid>
-          <Grid md={1}>
+          <Grid container md={1} justifyContent="center">
             <Button id="basic-button">
               <Link href="/Blog">Blog</Link>
             </Button>

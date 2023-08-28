@@ -31,13 +31,13 @@ export default function Accueil() {
 
         <Benefits
           background="alternate"
-          title="Headline that describes how your product solves the problem"
-          subtitle="Start by defining the pain your customer has right now, for example: clients not paying their invoices. Then write how your solution solves this problem for your customers."
+          title="Les Horaires"
+          subtitle="Les horaires se che"
           benefits={[
-            {illustration:'', title:'Main benefit of your product', text:'Brief explanation of why and how this benefit will help your customers'},
-            {illustration:'', title:'Main benefit of your product', text:'Brief explanation of why and how this benefit will help your customers'},
-            {illustration:'', title:'Main benefit of your product', text:'Brief explanation of why and how this benefit will help your customers'},
-            {illustration:'', title:'Main benefit of your product', text:'Brief explanation of why and how this benefit will help your customers'},
+            {illustration:'', title:'CP CE1 CE2', text:'Mercredi 10h45-12h et/ou Jeudi 17h10-18h'},
+            {illustration:'', title:'CM1 CM2 6èmeDébutant', text:'Mercredi 10h45-12h et/ou Jeudi 17h45-19h'},
+            {illustration:'', title:'6èmeConfirmé 5ème 4ème 3ème', text:'Jeudi 18h45-20h'},
+            {illustration:'', title:'Cours Ados Adults', text:'Jeudi 19h30-20h30'},
           ]}
         />
 

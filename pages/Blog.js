@@ -26,7 +26,7 @@ export default function Blog({ allPostsData }) {
   return (
     <div className={utilStyles['container']}>
            <Layout home>
-              <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+              <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }} paddingTop="80px">
                 {allPostsData.map(({ id, date, title }) => (
                   <Grid xs={4} sm={4} md={4} key={id}>
                     <small className={utilStyles.subtitle}>
