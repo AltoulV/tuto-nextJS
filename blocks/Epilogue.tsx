@@ -2,6 +2,7 @@ import styles from './Epilogue.module.css';
 import Section from '../components/Section';
 import cx from '../utils/cx';
 import SubscribeInput from '../components/SubscribeInput';
+import Button from '../components/Button';
 
 export default function Epilogue(p: {
   id?: string,
@@ -19,11 +20,11 @@ export default function Epilogue(p: {
 
   return (
     <Section id={p.id} className={className} background="accent">
-      <div className={styles.illustration}/>
       <div className={styles.header}>
+        <Button onClick={() => window.location.href = 'mailto:belledonne.escrime@laposte.net'}>
         <h2 className={styles.title}>{p.title}</h2>
+        </Button>
         <div className={styles.subtitle}>{p.subtitle}</div>
-        {p.subscribeAction && <SubscribeInput className={styles.subscribe} location="accent" placeholder={p.subscribePlaceholder} action={p.subscribeAction}/>}
       </div>
     </Section>
   );

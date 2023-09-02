@@ -10,7 +10,7 @@
   --page-header-height: 64px;
   --page-footer-height: 64px;
   --section-header-max-width: 650px;
-  --list-item-max-width: 450px;
+  --list-item-max-width: 200px;
 
   --background: #fff;
   --background-alternate: #fafafa;
@@ -57,6 +57,7 @@
 * {
   box-sizing: border-box;
 }
+
 
 html,
 body {

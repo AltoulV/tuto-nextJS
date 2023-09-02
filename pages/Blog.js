@@ -10,7 +10,8 @@ import { Box } from '@mui/system';
 import profilePic from '../public/Profile.png';
 import Image from 'next/image';
 import cx from '../utils/cx';
-
+import Footer from '../blocks/Footer';
+import Global from '../global/global.json';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -24,23 +25,33 @@ export async function getStaticProps() {
 export default function Blog({ allPostsData }) {
 
   return (
-    <div className={utilStyles['container']}>
+    <div >
            <Layout home>
-              <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }} paddingTop="80px">
-                {allPostsData.map(({ id, date, title }) => (
+              <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+                {allPostsData.map(({ id, date, title, img }) => (
                   <Grid xs={4} sm={4} md={4} key={id}>
-                    <small className={utilStyles.subtitle}>
-                      <Date dateString={date} />
-                    </small>
+                        <Image
+                          src={img}
+                          sizes="100vw"
+                          style={{
+                            width: '100%',
+                            height: 'auto',
+                            borderRadius: '8px'
+                          }}
+                          width={500}
+                          height={300}
+                        />
                     <br />
                     <div className={utilStyles['benefit-content']}>
                     <h3 className={utilStyles['benefit-title']}><Link href={`/posts/${id}`}>{title}</Link></h3>
                     </div>
+                    <small className={utilStyles.subtitle}>
+                      <Date dateString={date} />
+                    </small>
                   </Grid>
                   ))}
               </Grid>
           </Layout>
-
       </div>
   );
 }

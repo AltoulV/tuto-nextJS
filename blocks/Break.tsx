@@ -24,10 +24,14 @@ export default function Break(p: {
     <Section id={p.id} className={className} size="narrow" background="accent">
       <h1 className={styles.title}>{p.title}</h1>
       <div className={styles.content}>
-        <div className={styles.illustration}/>
+        <div/>
         <Image
         src={profilePic}
         alt="Picture of the author"
+        style={{
+          width: '100%',
+          height: 'auto',
+        }}
        />
       </div>
     </Section>

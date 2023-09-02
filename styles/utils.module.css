@@ -1,6 +1,7 @@
 .container {
-  max-width: var(--page-max-width);
+  max-width: 40rem;
   margin: 0 auto;
+  margin-top: 80px;
 }
 
 .header {
@@ -42,13 +43,12 @@
 }
 
 .benefit-illustration {
-  height: 200px;
   background: #eee;
   border-radius: 8px;
 }
 
 .benefit-content {
-  margin-top: 24px;
+  margin-top: 15px;
 }
 
 .benefit-title {

@@ -1,11 +1,11 @@
 .container {
-
+  background-image: '/image fond.png';
 }
 
 .header {
   max-width: var(--section-header-max-width);
   margin: 0 auto;
-  margin-bottom: 64px;
+  margin-bottom: 60px;
 }
 
 .title {
@@ -37,7 +37,7 @@
   margin: 0 auto;
 }
 .benefit:not(:last-child) {
-  margin-bottom: 48px;
+  margin-bottom: 20px;
 }
 
 .benefit-illustration {
@@ -47,7 +47,7 @@
 }
 
 .benefit-content {
-  margin-top: 24px;
+  margin-top: 10px;
 }
 
 .benefit-title {
