@@ -3,17 +3,15 @@ title: 'Récap 2022/2023'
 date: '2023-09-01'
 img: '/images/BlogRecap2022-2023.png'
 ---
+Pour commencer ce récap il faut féliciter **Lilou** (image en bas à droite) qui revient de Dinard avec la **médaille d'or** par équipe avec ses coéquipière de Meylan Escrime au Challenge de France 2023 ! Bravo à Lilou !
 
-Pour commencer ce récap il faut féliciter **Lilou** (image en bas à droite) qui reviens de Dinard avec la **médaille d'or** par équipe avec ses coéquipière de Meylan escrime au Challenge de France 2023 ! Bravo à elle !  
+&nbsp;
 
-.
+Ensuite félicitons nos trois arbitres qui rentrent en formation départementale: **Lilou, Mel et Wilhem **ont réussi tous les trois le QCM !
 
+&nbsp;
 
-Ensuite félicitont nos trois arbitres qui rentre en formation départemental: **Lilou, Mel et Wilhem**, ils ont réussi tous les trois le QCM !  
-
-.
-
-Lors de la fête du club, j'ai pu remettre **les Lames et les Sabres**:
+Lors de la fête du club, j'ai remis **les Lames et les Sabres à tous ces jeunes**:
 
 - Lame blanche: **Simon, Yann**
 - Lame jaune: **Paul, Camille, Alistair, Nolann, Nathan, Alice, Samuel, Natan, Noah, Raphaël, Tilio, Alexis, Livio, Timothée**
@@ -23,17 +21,12 @@ Lors de la fête du club, j'ai pu remettre **les Lames et les Sabres**:
 - Sabre d'acier: **Wilhem, Elio, Cyprien**
 - Sabre de bronze: **Lilou, Catalina, Mel, Enzo, Ethan**
 
-.
+Pour terminer, merci aux bénévoles qui ont aidé le club lors de l'organisation des rencontres régionales M13, M11 et M9 ! encore merci pour l'aide !
 
+&nbsp;
 
-Pour terminer, merci aux bénévoles qui ont aider le club lors de l'organisation des rencontres régionales moins de 13 ans (M13), M11 et M9 ! encore merci pour l'aide !
+Merci à Laurianne qui s'est occupé de nous trouver un beau Logo ! et de gérer la commande pour les Sweat-shirts et autres goodies à l'effigie du club !
 
-.
-
-
-Merci à Laurianne qui s'est occupé de nous trouver un beau Logo ! et de gérer la commande pour les Sweat Tshirt et autres goodies à l'effigie du club !
-
-.
-
+&nbsp;
 
 Arthur
