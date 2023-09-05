@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { Box } from '@mui/system';
 import Footer from '../blocks/Footer';
 import Global from '../global/global.json';
+import Button from './Button';
 
 const name = 'Belledonne Escrime';
 export const siteTitle = 'Belledonne Escrime';
@@ -17,7 +18,9 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
       {!home && (
         <Box display="flex" justifyContent="center" className={styles.backToHome}>
+                      <Button id="basic-button">
           <Link href="/Blog">← Retour aux articles</Link>
+          </Button>
           </Box>
       )}
 

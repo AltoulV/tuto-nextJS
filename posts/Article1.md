@@ -7,7 +7,7 @@ Pour commencer ce récap il faut féliciter **Lilou** (image en bas à droite) q
 
 &nbsp;
 
-Ensuite félicitons nos trois arbitres qui rentrent en formation départementale: **Lilou, Mel et Wilhem **ont réussi tous les trois le QCM !
+Ensuite félicitons nos trois arbitres qui rentrent en formation départementale: **Lilou, Mel et Wilhem** ont réussi tous les trois le QCM !
 
 &nbsp;
 

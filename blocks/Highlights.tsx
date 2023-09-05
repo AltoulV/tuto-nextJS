@@ -1,6 +1,7 @@
 import styles from './Highlights.module.css';
 import Section from '../components/Section';
 import cx from '../utils/cx';
+import Image from 'next/image';
 
 export default function Highlights(p: {
   id?: string,
@@ -30,7 +31,15 @@ export default function Highlights(p: {
         {p.highlights.map((item, i) => {
           return (
             <li key={i} className={styles.highlight}>
-              <div className={styles['highlight-illustration']}/>
+              <div className={styles['highlight-illustration']} style={{ position: 'relative', width: '100%', height: '200px' }}>
+              <Image src={item.illustration} alt=""
+                sizes="500px"
+                fill
+                style={{
+                  objectFit: 'cover',
+                  borderRadius: '8px'
+                }}/>
+              </div>
               <div className={styles['highlight-content']}>
                 <h3 className={styles['highlight-title']}>{item.title}</h3>
                 <p className={styles['highlight-text']}>{item.text}</p>

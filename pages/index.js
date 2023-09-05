@@ -46,9 +46,9 @@ export default function Accueil() {
           title="La pédagogie"
           subtitle=""
           highlights={[
-            {illustration:'', title:'Le vivre ensemble', text:'Mise en place de créneaux qui se chevauchent pour qu\' il y ait plus d\’interactions pendant les cours, organisation d\'événements internes pendant l\'année: rencontre parents/enfants, compétition par équipe anciens/nouveaux...'},
-            {illustration:'', title:'Les différents rôles', text:'Le maître d\'armes donnera des progressions écritent dans les différents rôles de l\'escrimeur: Tireur, Mini-maître, Arbitre, et Bénévole. Les enfants auront une référence pour leurs progressions.'},
-            {illustration:'', title:'Un retour des séances sur le Blog', text:'Le maître d\'armes écrira régulièrement sur le blog un retour sur les avancements des élèves, les parents pourront donc suivre à distance le déroulement des cours et l\'avancement des enfants !'},
+            {illustration:'/images/vivreensemble.png', title:'Le vivre ensemble', text:'Mise en place de créneaux qui se chevauchent pour qu\' il y ait plus d\’interactions pendant les cours, organisation d\'événements internes pendant l\'année: rencontre parents/enfants, compétition par équipe anciens/nouveaux...'},
+            {illustration:'/images/rôle.png', title:'Les différents rôles', text:'Le maître d\'armes donnera des progressions écritent dans les différents rôles de l\'escrimeur: Tireur, Mini-maître, Arbitre, et Bénévole. Les enfants auront une référence pour leurs progressions.'},
+            {illustration:'/images/feedback.png', title:'Un retour des séances sur le Blog', text:'Le maître d\'armes écrira régulièrement sur le blog un retour sur les avancements des élèves, les parents pourront donc suivre à distance le déroulement des cours et l\'avancement des enfants !'},
           ]}
         />
 
