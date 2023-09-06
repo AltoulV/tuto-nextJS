@@ -57,10 +57,10 @@ export default function Accueil() {
           title="L'équipe"
           subtitle="Nous recrutons des volontaires pour aider le bureau !"
           features={[
-            {illustration:'', title:'Marc FRANCO', text:'Président'},
-            {illustration:'', title:'Odile CHEMINEAU', text:'Trésorière'},
-            {illustration:'', title:'Fabien HALLEZ', text:'Secrétaire'},
-            {illustration:'', title:'Arthur VINCENT', text:'Maître d\'armes'},
+            {illustration:'/images/MarcFranco.png', title:'Marc FRANCO', text:'Président'},
+            {illustration:'/images/OdileChemineau.png', title:'Odile CHEMINEAU', text:'Trésorière'},
+            {illustration:'/images/FabienHallez.png', title:'Fabien HALLEZ', text:'Secrétaire'},
+            {illustration:'/images/ArthurV.png', title:'Arthur VINCENT', text:'Maître d\'armes'},
           ]}
         />
 
