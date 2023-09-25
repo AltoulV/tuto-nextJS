@@ -30,10 +30,9 @@ export default function Accueil() {
           title="Les Horaires"
           subtitle=""
           benefits={[
-            {illustration:'/images/Aigle1.png', title:'CP Ce1 Ce2', text:'Mercredi 10h45-12h et/ou Jeudi 17h10-18h'},
-            {illustration:'/images/Aigle2.png', title:'Cm1 Cm2 6ème Débutant', text:'Mercredi 10h45-12h et/ou Jeudi 17h45-19h'},
-            {illustration:'/images/Aigle3.png', title:'6ème Confirmé 5ème 4ème 3ème', text:'Jeudi 18h45-20h'},
-            {illustration:'/images/Aigle4.png', title:'Cours Ados Adults', text:'Jeudi 19h15-20h30'},
+            {illustration:'/images/Aigle1.png', title:'Primaires', text:'Mercredi 10h45-12h et/ou Jeudi 17h-18h'},
+            {illustration:'/images/Aigle3.png', title:'Collégiens', text:'Jeudi 18h30-19h30'},
+            {illustration:'/images/Aigle4.png', title:'Lycéens Adults', text:'Jeudi 19h30-20h30'},
           ]}
         />
         <Break
