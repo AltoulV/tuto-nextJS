@@ -30,9 +30,9 @@ export default function Accueil() {
           title="Les Horaires"
           subtitle=""
           benefits={[
-            {illustration:'/images/Aigle1.png', title:'Primaires', text:'Mercredi 10h45-12h et/ou Jeudi 17h-18h'},
-            {illustration:'/images/Aigle3.png', title:'Collégiens', text:'Jeudi 18h30-19h30'},
-            {illustration:'/images/Aigle4.png', title:'Lycéens Adults', text:'Jeudi 19h30-20h30'},
+            {illustration:'/images/Aigle1.png', title:'Primaires', text:'Mercredi 10h45-12h et/ou Jeudi 17h10-18h15'},
+            {illustration:'/images/Aigle3.png', title:'Collégiens', text:'Jeudi 18h-19h30'},
+            {illustration:'/images/Aigle4.png', title:'Lycéens Adults', text:'Jeudi 19h15-20h30'},
           ]}
         />
         <Break
