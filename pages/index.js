@@ -46,7 +46,7 @@ export default function Accueil() {
           subtitle=""
           highlights={[
             {illustration:'/images/VivreE.png', title:'Le vivre ensemble', text:'organisation d\'événements internes pendant l\'année: rencontre parents/enfants, compétition par équipe anciens/nouveaux...'},
-            {illustration:'/images/RoleMini.png', title:'Les différents rôles', text:'Le maître d\'armes donnera des progressions écritent dans les différents rôles de l\'escrimeur: Tireur, Mini-maître, Arbitre, et Bénévole. Les enfants auront une référence pour leurs progressions.'},
+            {illustration:'/images/RoleMini.png', title:'Les différents rôles', text:'Le maître d\'armes donnera des progressions écritent dans les différents rôles de l\'escrimeur: Tireur, Mini-maître, Arbitre, et Bénévole. Les enfants auront une référence pour leurs progressions.'}
           ]}
         />
 
